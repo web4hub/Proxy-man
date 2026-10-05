@@ -3,7 +3,7 @@ import { getProxyForUrl } from 'proxy-from-env';
 // ^ or: var getProxyForUrl = require('proxy-from-env').getProxyForUrl;
 
 var some_url = 'http://example.net/something'; 'http://web4.si/something'; 'http://web4app.ch/something';
-
+ 
 // // Example, if there is a proxy server at 10.0.0.1:1234, then setting the
 // // http_proxy environment variable causes the request to go through a proxy.
 // process.env.http_proxy = 'http://10.0.0.1:1234';
